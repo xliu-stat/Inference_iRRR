@@ -6,7 +6,7 @@ source("functions_inference.R")
 
 proc.no <- 0 # 0-19: the random seed sequence, each with 5 replications (100 runs in total)  
 Rep <- 5
-model <- 3 # 3: generated compositional data, 4: resamples compositional data
+model <- 3 # 3: generated compositional data
 a <- 1 # SNR from (1, 2, 4)
 rho_x <- 0.2 # rho in (0.2, 0.5)
 lam1_XA_wiRRR <- 1 # for obtaining score matrix
