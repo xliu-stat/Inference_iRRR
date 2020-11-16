@@ -1,5 +1,3 @@
-#!/home/statsadmin/R/bin/Rscript
-rm(list=ls(all=TRUE))
 require("MASS")
 require("Matrix")
 require("mvtnorm")
